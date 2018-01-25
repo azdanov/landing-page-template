@@ -7,6 +7,13 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "browser-sync": "^2.23.6"
+    "browser-sync": "^2.23.6",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.11"
+  },
+  "scripts": {
+    "dev": "browser-sync start --server --files \"css/*.css, *.html, js/*.js\"",
+    "build:css": "node-sass --source-map true --include-path scss \"src/css/index.scss\" \"css/index.css\"",
+    "watch:css": "nodemon -e scss -x \"npm run build:css\""
   }
 }

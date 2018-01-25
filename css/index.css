@@ -1,0 +1,60 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.95; }
+
+#home-section {
+  background-size: cover;
+  min-height: 759px;
+  background-image: url("../img/hero.jpeg");
+  background-position: center; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.9; }
+  #home-section .fa-square {
+    color: #fff; }
+  #home-section .fa-check {
+    color: #008ed6; }
+
+#find-section .fa-square,
+#share-section .fa-square {
+  color: #333; }
+
+#find-section .fa-check,
+#share-section .fa-check {
+  color: #fff; }
+
+#create-section .fa-square {
+  color: #fff; }
+
+#create-section .fa-check {
+  color: #008ed6; }
+
+#find-head-section h1,
+#find-head-section h3,
+#create-head-section h1,
+#create-head-section h3,
+#share-head-section h1,
+#share-head-section h3,
+#find-section h1,
+#find-section h3,
+#create-section h1,
+#create-section h3,
+#share-section h1,
+#share-section h3,
+#main-footer h1,
+#main-footer h3 {
+  font-variant: small-caps; }
+
+/*# sourceMappingURL=index.css.map */
