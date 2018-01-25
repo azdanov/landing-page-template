@@ -2,6 +2,8 @@
 
 Demo showcasing a landing page for a web application.
 
+[Live](http://azdanov.js.org/landing-page-template/)
+
 ## Tools
 
 * [Bootstrap 4](https://github.com/twbs/bootstrap)
