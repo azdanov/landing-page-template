@@ -1,10 +1,23 @@
+html, body {
+  height: 100%;
+  overflow: hidden; }
+
 body {
+  -webkit-font-smoothing: antialiased;
   background: #333;
   color: #fff; }
 
 .navbar {
   border-bottom: #008ed6 3px solid;
   opacity: 0.95; }
+
+#home {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto; }
 
 #home-section {
   background-size: cover;
