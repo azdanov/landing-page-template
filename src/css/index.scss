@@ -16,8 +16,23 @@ body {
 }
 
 .navbar {
+  .navbar-brand {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 30px;
+  }
+
+  .nav-link {
+    color: $font-color !important;
+    font-size: 20px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   border-bottom: $primary-color 3px solid;
-  opacity: 0.95;
 }
 
 #home {

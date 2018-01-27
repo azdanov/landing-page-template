@@ -8,8 +8,17 @@ body {
   color: #fff; }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.95; }
+  border-bottom: #008ed6 3px solid; }
+  .navbar .navbar-brand {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 30px; }
+  .navbar .nav-link {
+    color: #fff !important;
+    font-size: 20px; }
+    .navbar .nav-link:hover {
+      text-decoration: underline; }
 
 #home {
   position: absolute;
