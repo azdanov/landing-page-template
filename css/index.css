@@ -7,6 +7,22 @@ body {
   background: #333;
   color: #fff; }
 
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.7) !important; }
+
+.bg-primary {
+  background-color: #008ed6 !important; }
+
+.btn-primary {
+  background-color: #008ed6;
+  border-color: #008ed6; }
+  .btn-primary:hover {
+    background-color: #0084c7;
+    border-color: #0084c7; }
+  .btn-primary:active {
+    background-color: #0076b2 !important;
+    border-color: #0076b2 !important; }
+
 .navbar {
   border-bottom: #008ed6 3px solid; }
   .navbar .navbar-brand {
@@ -34,7 +50,7 @@ body {
   background-image: url("../img/hero.jpeg");
   background-position: center; }
   #home-section .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;

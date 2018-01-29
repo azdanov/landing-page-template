@@ -1,7 +1,7 @@
 $bg-color: #333;
 $font-color: #fff;
 $primary-color: #008ed6;
-$dark-overlay: rgba(0, 0, 0, 0.4);
+$dark-overlay: rgba(0, 0, 0, 0.7);
 $font-size: 30px;
 
 html, body {
@@ -13,6 +13,29 @@ body {
   -webkit-font-smoothing: antialiased;
   background: $bg-color;
   color: $font-color;
+}
+
+.bg-dark {
+  background-color: $dark-overlay !important;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 3%);
+    border-color: darken($primary-color, 3%);
+  }
+
+  &:active {
+    background-color: darken($primary-color, 7%) !important;
+    border-color: darken($primary-color, 7%) !important;
+  }
 }
 
 .navbar {
